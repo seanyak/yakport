@@ -2,10 +2,6 @@ import React from "react";
 import { VscSymbolNamespace } from "react-icons/vsc";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import selfloveclubImg from "@/public/SLCbam.jpg";
-import infinitewellnessImg from "@/public/logo_infinitewellness.png";
-import sonicdefcultImg from "@/public/defcult01.jpg";
-import zoohausImg from "@/public/lp_zoohaus.jpg";
 import richard from "@/public/richard.png";
 import JimDine from "@/public/proj_JimDine.png";
 import AAMG from "@/public/proj_AAMG.png";
@@ -77,6 +73,7 @@ export const projectsData = [
       "Worked on site design and development, content creation, and SEO",
     tags: ["Squarespace", "Design", "Develop", "SEO"],
     imageUrl: JimDine,
+    projUrl: "https://www.jimdine.com/",
   },
   {
     title: "Artist Asset Management Group",
@@ -84,6 +81,7 @@ export const projectsData = [
       "I worked on the design and development of their site, content creation, and SEO.",
     tags: ["Squarespace", "Design", "Develop", "SEO"],
     imageUrl: AAMG,
+    projUrl: "https://www.artassetmanagementgroup.com/",
   },
   {
     title: "Skidmore Contemporary Art",
@@ -91,6 +89,7 @@ export const projectsData = [
       "Designed and developed their site to showcase their Artists & Exhibitions. Also worked on content creation, and SEO.",
     tags: ["Big Commerce", "Design", "Develop", "SEO"],
     imageUrl: Skidmore,
+    projUrl: "https://skidmorecontemporaryart.com/",
   },
   {
     title: "Self Love Club",
@@ -98,6 +97,7 @@ export const projectsData = [
       "I worked on the design and development of their website. Also worked on graphic design, content creation, and SEO.",
     tags: ["Square", "Design", "Develop", "SEO"],
     imageUrl: SLC,
+    projUrl: "https://self-love-club-bodyworks-and-massage.square.site/",
   },
 ] as const;
 
