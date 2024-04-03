@@ -19,7 +19,7 @@ export const validateString = (
     } else if (typeof error === "string") {
       message = error;
     } else {
-      message = "Something went wrong";
+      message = "error";
     }
   
     return message;

@@ -6,7 +6,11 @@ import selfloveclubImg from "@/public/SLCbam.jpg";
 import infinitewellnessImg from "@/public/logo_infinitewellness.png";
 import sonicdefcultImg from "@/public/defcult01.jpg";
 import zoohausImg from "@/public/lp_zoohaus.jpg";
-import richard from "@/public/richard.png"
+import richard from "@/public/richard.png";
+import JimDine from "@/public/proj_JimDine.png";
+import AAMG from "@/public/proj_AAMG.png";
+import Skidmore from "@/public/proj_Skidmore.png"
+import SLC from "@/public/proj_SLC.png"
 
 export const portrait = {
     imageUrl: richard,
@@ -68,32 +72,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Jim Dine",
+    description:
+      "Worked on site design and development, graphic design, content creation, and SEO",
+    tags: ["Squarespace", "Design", "Develop", "SEO"],
+    imageUrl: JimDine,
+  },
+  {
+    title: "Artist Asset Management Group",
+    description:
+      "I worked on the design and development of their website. Also worked on graphic design, content creation, and SEO.",
+    tags: ["Squarespace", "Design", "Develop", "SEO"],
+    imageUrl: AAMG,
+  },
+  {
+    title: "Skidmore Contemporary Art",
+    description:
+      "Designed and developed their site to showcase their Artists & Exhibitions. Also worked on graphic design, content creation, and SEO.",
+    tags: ["Squarespace", "Design", "Develop", "SEO"],
+    imageUrl: Skidmore,
+  },
+  {
     title: "Self Love Club",
     description:
-      "I worked as a full-stack developer on this project, building their website from start to finish. Worked on web development, graphic design, content creation, marketing, SEO",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
-    imageUrl: selfloveclubImg,
-  },
-  {
-    title: "Infinite Wellness",
-    description:
-        "I worked as a full-stack developer on this project, building their website from start to finish. Worked on web development, graphic design, content creation, marketing, SEO.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: infinitewellnessImg,
-  },
-  {
-    title: "Def Cult",
-    description:
-      "A public web app for music lovers. Worked on web development, graphic design, content creation, marketing, SEO",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Adobe"],
-    imageUrl: sonicdefcultImg,
-  },
-  {
-    title: "ZooHaus",
-    description:
-      "A public web app for the artist known as ZooHaus. Worked on web development, graphic design, content creation, marketing, SEO, audio, video",
-    tags: ["React", "Next.js", "Tailwind", "Adobe", "Ableton"],
-    imageUrl: zoohausImg,
+      "I worked on the design and development of their website. Also worked on graphic design, content creation, and SEO.",
+    tags: ["Squarespace", "Design", "Develop", "SEO"],
+    imageUrl: SLC,
   },
 ] as const;
 
@@ -116,6 +120,6 @@ export const skillsData = [
   "Django",
   "Flask",
   "Framer Motion",
-  "Adobe",
+  "Adobe Creative Suite",
   "Ableton",
 ] as const;

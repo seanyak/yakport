@@ -20,7 +20,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify">
-        My journey in the tech world kicked off back in Web 1.0, wwhere I dabbled in crafting static websites. 
+        My journey in the tech world kicked off back in Web 1.0, where I dabbled in crafting static websites. 
         I created sites as a hobby for friends and eventually for bands and record labels. My passion for music
         took precedent and as I began playing music more I worked on websites less. Fast forward to 2020, decided 
         to make a career shift and go all-in on{" "}
@@ -40,7 +40,8 @@ export default function About() {
       </p>
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy creating music, 
-        discovering new grooves, watching footy, and hanging with the fam at the beach. 
+        discovering new grooves, coaching youth soccer, watching footy, and hanging
+        with the fam at the beach. 
       </p>
       <p className="mt-3 text-xl font-medium">
       Let's make something!
