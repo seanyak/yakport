@@ -74,29 +74,29 @@ export const projectsData = [
   {
     title: "Jim Dine",
     description:
-      "Worked on site design and development, graphic design, content creation, and SEO",
+      "Worked on site design and development, content creation, and SEO",
     tags: ["Squarespace", "Design", "Develop", "SEO"],
     imageUrl: JimDine,
   },
   {
     title: "Artist Asset Management Group",
     description:
-      "I worked on the design and development of their website. Also worked on graphic design, content creation, and SEO.",
+      "I worked on the design and development of their site, content creation, and SEO.",
     tags: ["Squarespace", "Design", "Develop", "SEO"],
     imageUrl: AAMG,
   },
   {
     title: "Skidmore Contemporary Art",
     description:
-      "Designed and developed their site to showcase their Artists & Exhibitions. Also worked on graphic design, content creation, and SEO.",
-    tags: ["Squarespace", "Design", "Develop", "SEO"],
+      "Designed and developed their site to showcase their Artists & Exhibitions. Also worked on content creation, and SEO.",
+    tags: ["Big Commerce", "Design", "Develop", "SEO"],
     imageUrl: Skidmore,
   },
   {
     title: "Self Love Club",
     description:
       "I worked on the design and development of their website. Also worked on graphic design, content creation, and SEO.",
-    tags: ["Squarespace", "Design", "Develop", "SEO"],
+    tags: ["Square", "Design", "Develop", "SEO"],
     imageUrl: SLC,
   },
 ] as const;
